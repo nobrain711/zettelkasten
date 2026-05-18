@@ -1,0 +1,13 @@
+# Terraform Provider 캐시
+.terraform/
+
+# Terraform 상태 파일
+*.tfstate
+*.tfstate.*
+
+# Terraform Lock 파일
+.terraform.lock.hcl
+
+# SSH 개인 키 및 로컬 비밀값
+secrets/
+*.pem

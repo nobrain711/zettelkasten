@@ -1,0 +1,27 @@
+# 모든 파일을 LF로 고정
+* text=auto eol=lf
+
+# Terraform 파일 LF 고정
+*.tf text eol=lf
+
+# Shell Script LF 고정
+*.sh text eol=lf
+
+# YAML 파일 LF 고정
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Docker 관련 파일 LF 고정
+Dockerfile text eol=lf
+*.dockerfile text eol=lf
+
+# Python 파일 LF 고정
+*.py text eol=lf
+
+# Markdown 파일 LF 고정
+*.md text eol=lf
+
+# Windows 전용 파일은 CRLF 유지
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
